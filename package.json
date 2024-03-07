@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "ng": "ng",
-    "start": "ionic serve --browser=$MOODLE_APP_BROWSER --ssl",
+    "start": "ionic serve --browser=$MOODLE_APP_BROWSER",
     "serve:test": "NODE_ENV=testing ionic serve --no-open",
     "build": "NODE_OPTIONS=--max-old-space-size=8192 ionic build --configuration=development",
     "build:prod": "NODE_ENV=production ionic build --prod",
